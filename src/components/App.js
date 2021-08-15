@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 
 import '../Css/App.css';
 import Aos from 'aos';
-import Navigation from './components/Navigation.js';
+import Navigation from './Navigation.js';
 import 'aos/dist/aos.css';
 
 function App() {
@@ -81,12 +81,12 @@ along with analytical knowledge and Problem-solving skills in Algorithm and Data
     </defs>
 
 <text x="50%" y="80%"  text-anchor="middle"  >
-  Ruby Jana
+  Specialized In
   
  </text>
  
  </svg>
-<p className="sp"> Also, a Front-End Developer , open source contributor and have enough Knowledge in Back-End too, <br/> 
+<p className="sp">Also, a Front-End Developer , open source contributor and have enough Knowledge in Back-End too, <br/> 
 pursuing a Bachelor of Technology in Computer Science from Jaypee Institute of Information Technology, Noida.</p>
 </div>
 </div>

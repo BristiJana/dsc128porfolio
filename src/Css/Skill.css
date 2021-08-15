@@ -1,0 +1,35 @@
+.sb
+{
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+
+.fourth-container
+{
+    margin: 0;
+            
+background-size: 100% 100%;
+background-position: center;
+           
+            font-family: Calibri, sans-serif;
+          height: 836px;
+          background-color: black;
+            padding-top: 280px;
+            padding-left: 820px;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+  
+    
+    text-align: center;
+    
+    
+    
+}
+.ps
+{
+	width:400px;
+	height:400px;
+}
+

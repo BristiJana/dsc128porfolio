@@ -1,0 +1,96 @@
+.ab
+{
+    background-color: pink;
+}
+
+.third-container
+{
+    margin: 0;
+            
+background-size: 100% 100%;
+background-position: center;
+           
+            font-family: Calibri, sans-serif;
+           
+            
+            justify-content: center;
+            align-items: center;
+            position:relative;
+            padding-top: 200px;
+ height: 836px;
+    background-color: pink;
+    text-align: center;
+    
+    
+    
+}
+.row
+{
+    width:100%;
+}
+.tcard
+{
+    width:320px;
+    margin:auto;
+}
+
+    
+.image {
+    position: relative;
+    
+}
+
+
+.image__img {
+    display: block;
+    width: 100%;
+    
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: pink;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 3.2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
